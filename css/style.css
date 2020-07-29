@@ -1,15 +1,41 @@
-.kwadrat-1 {
-    color: red;
+
+
+.box {
     height: 150px;
     width: 150px;
+    margin: auto;
+    margin-top: 20px;
 }
-.kwadrat-2 {
-    color: blue;
-    height: 150px;
-    width: 150px;
+
+.box:hover {
+    cursor: pointer;
 }
-.kwadrat-3 {
-    color: green;
-    height: 150px;
-    width: 150px;
+
+#kwadrat-1 {
+    background-color: red;
+    transition: width 2s ease-in-out;
+}
+
+#kwadrat-1:hover {
+    width: 300px;
+}
+
+#kwadrat-2 {
+    background-color: blue;
+    transition: height 2s ease-in-out;
+}
+
+#kwadrat-2:hover {
+    height: 300px;
+}
+
+
+#kwadrat-3 {
+    background-color: green;
+    transition: height 2s ease-in-out, width 2s ease-in-out;
+}
+
+#kwadrat-3:hover {
+    width: 300px;
+    height: 300px;
 }
